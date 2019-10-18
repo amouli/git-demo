@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<mule xmlns:metadata="http://www.mulesoft.org/schema/mule/metadata" xmlns="http://www.mulesoft.org/schema/mule/core" xmlns:doc="http://www.mulesoft.org/schema/mule/documentation"
+	xmlns:spring="http://www.springframework.org/schema/beans" 
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-current.xsd
+http://www.mulesoft.org/schema/mule/core http://www.mulesoft.org/schema/mule/core/current/mule.xsd">
+    <flow name="ramlsampleFlow1">
+        <message-filter metadata:id="b3d857cf-dca8-47bb-a263-bc35e3659fe0" doc:name="Message"/>
+    </flow>
+    <flow name="ramlsampleFlow">
+        <payload-type-filter expectedType="" doc:name="Payload" metadata:id="4714ad16-d7bc-45a6-87fb-5b3427c4acaa"/>
+    </flow>
+</mule>
